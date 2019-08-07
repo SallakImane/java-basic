@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: com.imane.RandomString
+Class-Path: lib/commons-lang3-3.9.jar lib/commons-text-1.7.jar 
