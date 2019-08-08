@@ -58,4 +58,4 @@ How to compile, build and run java application.
         $ java -jar random-string.jar 
 
 # Authors
- + **Sallak Imane** 
+ + [**Sallak Imane**](https://github.com/SallakImane) 
