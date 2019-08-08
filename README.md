@@ -3,6 +3,13 @@ How to compile, build and run java application.
 
 # Getting Started 
 
+#### File structure :
+
+    + `jar` file contains : 
+
+        > `META-INF/`       : this directory contains MANIFEST.MF
+        > `*.class / *.jar` : All compiled classes and 3rt paty libraries
+
 ### Etape 1 : Compile
 
 1. the javac is the compiler that converts the source code `file.java` to a `file.class` with command:
