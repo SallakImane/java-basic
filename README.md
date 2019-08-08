@@ -3,17 +3,21 @@ How to compile, build and run java application.
 
 # Getting Started 
 
+###Etape 1 : Compile
+
 1. the javac is the compiler that converts the source code `file.java` to a `file.class` with command:
  
-  + Example the compile `RandomString.java` to `RandomString.class` with this jar .
+  + Example the compile `RandomString.java` to `RandomString.class` with this 3rt party libraries in the CLASSPATH.
 
              $ javac -cp commons-lang3-3.9.jar;commons-text-1.7.jar RandomString.java
 
-2.  Create an executable JAR file :
+###Etape 2 : Build             
+
+1.  Create an executable JAR file :
 
   + Create a main class in the package : `com.imane` .
 
-  + Create the lib folder and the inside place the plugins :`commons-lang3-3.9.jar` et `commons-text-1.7.jar`.
+  + Place the plugins into a lib folder :`commons-lang3-3.9.jar` et `commons-text-1.7.jar`.
 
   + Create MANIFEST.txt file and put in a basic description :
 
@@ -26,7 +30,7 @@ How to compile, build and run java application.
       `At the end the return to the line is mandatory`
 
 
-3. Create an executable JAR `random-string.jar` file from the resources located inside the java-basic directory and add a manifest file to a jar file : 
+2. Create a JAR `random-string.jar` : 
 
         $ jar cvfm random-string.jar MANIFEST.TXT com lib 
 
@@ -40,7 +44,9 @@ How to compile, build and run java application.
 
       + m : include manifest information from specified manifest file.
 
-4. Execute with command : 
+###Etape 3 : Deploy  
+
+1. Execute with command : 
 
         $ java -jar random-string.jar 
 
