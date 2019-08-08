@@ -3,15 +3,15 @@ How to compile, build and run java application.
 
 # Getting Started 
 
-###Etape 1 : Compile
+### Etape 1 : Compile
 
 1. the javac is the compiler that converts the source code `file.java` to a `file.class` with command:
  
   + Example the compile `RandomString.java` to `RandomString.class` with this 3rt party libraries in the CLASSPATH.
 
              $ javac -cp commons-lang3-3.9.jar;commons-text-1.7.jar RandomString.java
-
-###Etape 2 : Build             
+ 
+### Etape 2 : Build             
 
 1.  Create an executable JAR file :
 
@@ -44,7 +44,7 @@ How to compile, build and run java application.
 
       + m : include manifest information from specified manifest file.
 
-###Etape 3 : Deploy  
+### Etape 3 : Deploy  
 
 1. Execute with command : 
 
