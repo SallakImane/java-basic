@@ -31,10 +31,12 @@ How to compile, build and run java application.
         $ jar cvfm random-string.jar MANIFEST.TXT com lib 
 
   +Options:
-        + c: create new archive.
-        + v: generate verbose output on standard output.
-        + f: specify archive file name.
-        + m: include manifest information from specified manifest file.
+       + c : create new archive.
+       + v : generate verbose output on standard 
+        output.
+
+       + f : specify archive file name.
+       + m : include manifest information from specified manifest file.
 
 4. Execute with command : 
 
