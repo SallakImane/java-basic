@@ -7,7 +7,7 @@ How to compile, build and run java application.
  
   + Example the compile `RandomString.java` to `RandomString.class` with this jar .
 
-	$ javac -cp commons-lang3-3.9.jar;commons-text-1.7.jar RandomString.java
+             $ javac -cp commons-lang3-3.9.jar;commons-text-1.7.jar RandomString.java
 
 2.  Create an executable JAR file :
 
@@ -17,17 +17,20 @@ How to compile, build and run java application.
 
   + Create MANIFEST.txt file and put in a basic description :
 
-  	  `Manifest-Version`: 1.0
+      `Manifest-Version`: 1.0
+
       `Main-Class`: com.imane.RandomString
+
       `Class-Path`: lib/commons-lang3-3.9.jar lib/commons-text-1.7.jar 
-      `Back to the line is required`
+
+      `At the end the return to the line is mandatory`
 
 
 3. Create an executable JAR `random-string.jar` file from the resources located inside the java-basic directory and add a manifest file to a jar file : 
 
-		$ jar cvfm random-string.jar MANIFEST.TXT com lib 
+        $ jar cvfm random-string.jar MANIFEST.TXT com lib 
 
-	+Options:
+  +Options:
         + c: create new archive.
         + v: generate verbose output on standard output.
         + f: specify archive file name.
@@ -35,7 +38,7 @@ How to compile, build and run java application.
 
 4. Execute with command : 
 
-		$ java -jar random-string.jar 
+        $ java -jar random-string.jar 
 
 # Authors
  + **Sallak Imane** 
